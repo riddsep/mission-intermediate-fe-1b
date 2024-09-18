@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 9rem 0;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rem 0;
+
+  color: #fff;
+}
+.hero__title {
+  width: 80%;
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.3));
+  line-height: 90%;
+  margin-bottom: 1rem;
+}
+.hero__paragraph {
+  font-size: 1.2rem;
+  line-height: 120%;
+}
