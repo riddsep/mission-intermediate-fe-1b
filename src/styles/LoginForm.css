@@ -59,6 +59,7 @@
 }
 .call-to-action {
   color: #fff;
+  font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.25rem;
