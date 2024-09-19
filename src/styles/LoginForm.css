@@ -9,7 +9,7 @@
   background-position: center;
   background: linear-gradient(
       to top,
-      rgba(2, 77, 183, 1) 2%,
+      rgba(2, 77, 183, 0.5) 5%,
       rgba(2, 77, 183, 0)
     ),
     url("/background-2.jpg");
