@@ -88,8 +88,3 @@
   bottom: 20%;
   cursor: pointer;
 }
-@media (min-width: 25rem) {
-  .container__login {
-    overflow: hidden;
-  }
-}
