@@ -29,17 +29,17 @@
   margin-bottom: 37px;
 }
 .login__logo {
-  width: 94px;
+  width: 120px;
   height: auto;
   margin-bottom: 37px;
 }
 .login__title {
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 110%;
   color: #fff;
 }
 .login__paragraph {
-  font-size: 0.625rem;
+  font-size: 1rem;
   color: #fff;
   line-height: 140%;
 }
@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: column;
   color: #fff;
-  font-size: 0.625rem;
+  font-size: 1rem;
 
   gap: 3px;
 }
@@ -60,7 +60,7 @@
 }
 .call-to-action {
   color: #fff;
-  font-size: 0.625rem;
+  font-size: 0.8rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.25rem;
