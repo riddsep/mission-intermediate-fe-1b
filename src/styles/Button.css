@@ -1,15 +1,26 @@
-.button {
+.btn--primary {
   background-color: #0586ff;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 1rem;
   cursor: pointer;
 }
-button:hover {
+.btn--primary:hover {
   background-color: #0367db;
 }
-button:active {
+.btn--primary:active {
   background-color: #024db7;
+}
+
+.btn--secondary {
+  width: 100%;
+  background-color: #3d4142;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  font-size: 10px;
+  cursor: pointer;
 }

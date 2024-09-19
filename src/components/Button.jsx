@@ -1,5 +1,6 @@
 import "../styles/Button.css";
-function Button() {
-  return <button className="button">Get started</button>;
+function Button(props) {
+  const { className, label } = props;
+  return <button className={className}>{label}</button>;
 }
 export default Button;

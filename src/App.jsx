@@ -1,10 +1,12 @@
 import "./App.css";
-import Dashboard from "./pages/Dashboard";
+// import Dashboard from "./pages/Dashboard";
+import LoginForm from "./pages/LoginForm";
 
 function App() {
   return (
     <>
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <LoginForm />
     </>
   );
 }

@@ -1,0 +1,74 @@
+.container__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      to top,
+      rgba(2, 77, 183, 1) 2%,
+      rgba(2, 77, 183, 0)
+    ),
+    url("/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem;
+}
+.wrapper__login {
+  flex: 0 1 529px;
+  height: fit-content;
+  background-color: rgba(24, 26, 28, 0.8);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+.login__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 37px;
+}
+.login__logo {
+  width: 94px;
+  height: auto;
+  margin-bottom: 37px;
+}
+.login__title {
+  font-size: 18px;
+  line-height: 110%;
+  color: #fff;
+}
+.login__paragraph {
+  font-size: 0.625rem;
+  color: #fff;
+  line-height: 140%;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 0.625rem;
+
+  gap: 3px;
+}
+.username {
+  margin-bottom: 1.25rem;
+}
+.password {
+  margin-bottom: 0.4rem;
+}
+.call-to-action {
+  color: #fff;
+  font-size: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+.call-to-action span {
+  color: #c1c2c4;
+}
+.call-to-action a {
+  color: #fff;
+  text-decoration: none;
+}
