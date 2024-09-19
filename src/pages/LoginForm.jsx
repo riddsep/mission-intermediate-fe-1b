@@ -30,6 +30,7 @@ function LoginForm() {
               placeholder={"Masukkan kata sandi"}
               id="password"
             />
+            <img src="/images/hide-icon.svg" alt="" className="hide-icon" />
           </label>
           <p className="call-to-action">
             <span>
@@ -43,6 +44,12 @@ function LoginForm() {
             </a>
           </p>
           <Button className={"btn--secondary"} label={"Masuk"} />
+          <p className="or">Atau</p>
+          <Button
+            className={"btn--secondary--outline flex"}
+            label={"Masuk dengan Google"}
+            icon={<img src="/images/google-icon.svg" className="google-icon" />}
+          />
         </form>
       </div>
     </main>

@@ -24,3 +24,19 @@
   font-size: 1rem;
   cursor: pointer;
 }
+.btn--secondary--outline {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #e7e3fc99;
+  padding: 0.5rem 1rem;
+  border-radius: 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
