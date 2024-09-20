@@ -1,5 +1,4 @@
 import "../styles/Dashboard.css";
-import "../styles/Button.css";
 import Button from "../components/Button";
 import Input from "../components/Input";
 function Dashboard() {

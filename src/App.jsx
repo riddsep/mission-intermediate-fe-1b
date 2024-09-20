@@ -1,12 +1,10 @@
 import "./App.css";
-// import Dashboard from "./pages/Dashboard";
-import LoginForm from "./pages/LoginForm";
+import AuthForm from "./pages/AuthForm";
 
 function App() {
   return (
     <>
-      {/* <Dashboard /> */}
-      <LoginForm />
+      <AuthForm />
     </>
   );
 }

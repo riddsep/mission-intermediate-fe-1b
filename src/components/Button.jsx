@@ -1,9 +1,8 @@
-import "../styles/Button.css";
+import "./Button.css";
 function Button(props) {
-  const { className, label, icon } = props;
+  const { className, label, onClick } = props;
   return (
-    <button className={className}>
-      {icon}
+    <button className={className} onClick={onClick}>
       {label}
     </button>
   );

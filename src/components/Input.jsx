@@ -1,6 +1,5 @@
-import "../styles/Input.css";
+import "./Input.css";
 function Input(props) {
-  const { type, className, placeholder } = props;
-  return <input type={type} className={className} placeholder={placeholder} />;
+  return <input {...props} />;
 }
 export default Input;

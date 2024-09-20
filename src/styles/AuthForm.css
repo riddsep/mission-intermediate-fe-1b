@@ -1,4 +1,4 @@
-.container__login {
+.container {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -14,30 +14,30 @@
     ),
     url("/background-2.jpg");
 }
-.wrapper__login {
+.wrapper {
   flex: 0 1 529px;
   height: fit-content;
   background-color: rgba(24, 26, 28, 0.8);
   padding: 1.5rem;
   border-radius: 8px;
 }
-.login__header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 37px;
 }
-.login__logo {
+.logo {
   width: 120px;
   height: auto;
   margin-bottom: 37px;
 }
-.login__title {
+.title {
   font-size: 1.8rem;
   line-height: 110%;
   color: #fff;
 }
-.login__paragraph {
+.paragraph {
   font-size: 1rem;
   color: #fff;
   line-height: 140%;
@@ -48,7 +48,6 @@
   flex-direction: column;
   color: #fff;
   font-size: 1rem;
-
   gap: 3px;
 }
 .username {
@@ -58,6 +57,11 @@
   margin-bottom: 0.4rem;
   position: relative;
 }
+.password--register {
+  margin-bottom: 1.25rem;
+  position: relative;
+}
+
 .call-to-action {
   color: #fff;
   font-size: 0.8rem;
@@ -67,6 +71,8 @@
 }
 .call-to-action span {
   color: #c1c2c4;
+  display: flex;
+  gap: 5px;
 }
 .call-to-action a {
   color: #fff;
@@ -87,4 +93,12 @@
   right: 5%;
   bottom: 20%;
   cursor: pointer;
+}
+.call-to-action .register {
+  cursor: pointer;
+  color: #fff;
+}
+
+.call-to-action .forget-password {
+  color: #fff;
 }
