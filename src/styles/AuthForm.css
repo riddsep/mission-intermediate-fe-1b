@@ -102,3 +102,12 @@
 .call-to-action .forget-password {
   color: #fff;
 }
+
+@media (min-width: 1440px) {
+  .logo {
+    width: 150px;
+  }
+  .call-to-action {
+    font-size: 1rem;
+  }
+}

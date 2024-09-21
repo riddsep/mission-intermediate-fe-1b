@@ -40,3 +40,14 @@
   justify-content: center;
   gap: 5px;
 }
+
+@media (min-width: 1440px) {
+  .btn--secondary--outline {
+    padding: 0.7rem;
+    border-radius: 24px;
+  }
+  .btn--secondary {
+    padding: 0.7rem;
+    border-radius: 24px;
+  }
+}

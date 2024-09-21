@@ -10,9 +10,11 @@ function AuthForm() {
     <main className="container">
       <div className="wrapper">
         <div className="header">
-          <img src="/images/Logo.png" alt="" className="logo" />
-          <h1 className="title">Masuk</h1>
-          <p className="paragraph">Selamat datang kembali!</p>
+          <img src="/images/logo.png" alt="" className="logo" />
+          <h1 className="title">{isRegister ? "Daftar" : "Masuk"}</h1>
+          <p className="paragraph">
+            {isRegister ? "Selamat datang!" : "Selamat datang kembali!"}
+          </p>
         </div>
         {isRegister ? <RegisterForm /> : <LoginForm />}
         <p className="call-to-action">
@@ -29,14 +31,17 @@ function AuthForm() {
             {!isRegister ? "Lupa kata sandi?" : ""}
           </span>
         </p>
-        <Button className={"btn--secondary"} label={"Masuk"} />
+        <Button
+          className={"btn--secondary"}
+          label={isRegister ? "Daftar" : "Masuk"}
+        />
         <p className="or">Atau</p>
         <Button
           className={"btn--secondary--outline flex"}
           label={
             <>
               <img src="/images/google-icon.svg" className="google-icon" />
-              Masuk dengan Google
+              {isRegister ? "Daftar dengan Google" : "Masuk dengan Google"}
             </>
           }
         />
