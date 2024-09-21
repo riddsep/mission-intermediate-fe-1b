@@ -6,7 +6,7 @@ function Navbar() {
         <ul className="nav__list">
           <li className="nav__logo">
             <img src="./images/logo-small.svg" alt="" className="logo-small" />
-            <img src="/images/logo.png" alt="" className="logo-medium" />
+            <img src="./images/logo.svg" alt="" className="logo-medium" />
           </li>
           <li className="nav__item">
             <a href="#" className="nav__link">
