@@ -23,7 +23,7 @@ function RegisterForm() {
           />
           <img src="/images/hide-icon.svg" alt="" className="hide-icon" />
         </label>
-        <label htmlFor="password" className="form__label password">
+        <label htmlFor="password-confirm" className="form__label password">
           Konfirmasi Kata Sandi
           <Input
             type="password"
