@@ -7,6 +7,15 @@
   font-size: 1rem;
   cursor: pointer;
 }
+.btn--primary--dark {
+  background-color: #0f1e93;
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 48px;
+  font-size: 12px;
+  cursor: pointer;
+}
 .btn--primary:hover {
   background-color: #0367db;
 }
@@ -22,6 +31,15 @@
   padding: 0.5rem 1rem;
   border-radius: 14px;
   font-size: 1rem;
+  cursor: pointer;
+}
+.btn--secondary--small {
+  background-color: #3d4142;
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 12px;
   cursor: pointer;
 }
 .btn--secondary--outline {
