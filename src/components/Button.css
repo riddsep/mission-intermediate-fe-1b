@@ -58,8 +58,16 @@
   justify-content: center;
   gap: 5px;
 }
+@media (min-width: 768px) {
+  .btn--primary--dark {
+    font-size: 1rem;
+  }
+  .btn--secondary--small {
+    font-size: 1rem;
+  }
+}
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .btn--secondary--outline {
     padding: 0.7rem;
     border-radius: 24px;
@@ -67,5 +75,11 @@
   .btn--secondary {
     padding: 0.7rem;
     border-radius: 24px;
+  }
+  .btn--primary--dark {
+    padding: 10px 26px;
+  }
+  .btn--secondary--small {
+    padding: 10px 26px;
   }
 }

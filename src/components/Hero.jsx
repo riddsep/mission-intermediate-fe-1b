@@ -18,7 +18,11 @@ function Hero() {
             className={"btn--secondary--small flex"}
             label={
               <>
-                <img src="./images/information-outline.svg" alt="" />
+                <img
+                  src="./images/information-outline.svg"
+                  alt=""
+                  className="icon-info"
+                />
                 Selengkapnya
               </>
             }

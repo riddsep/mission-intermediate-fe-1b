@@ -36,6 +36,7 @@
 .hero__info {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 .hero__age {
   padding: 4px;
@@ -44,7 +45,82 @@
   border-radius: 1.5rem;
 }
 .hero__sound {
-  padding: 4px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
   border: 1px solid #fff;
   border-radius: 50%;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .hero {
+    padding: 5rem;
+  }
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  .hero__paragraph {
+    font-size: 1.125rem;
+    margin-right: 5rem;
+  }
+  .icon-info {
+    width: 1rem;
+  }
+  .hero__age {
+    font-size: 1rem;
+  }
+  .hero__sound {
+    padding: 8px;
+  }
+  .sound-icon {
+    width: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  .hero__paragraph {
+    font-size: 1.125rem;
+    margin-right: 5rem;
+  }
+  .icon-info {
+    width: 1rem;
+  }
+  .hero__age {
+    font-size: 1rem;
+  }
+  .hero__sound {
+    padding: 8px;
+  }
+  .sound-icon {
+    width: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    gap: 20px;
+  }
+  .hero__title {
+    font-size: 3rem;
+  }
+  .hero__paragraph {
+    display: block;
+    max-width: 645px;
+    margin-bottom: 20px;
+  }
+  .hero__info {
+    gap: 10px;
+  }
+  .hero__age {
+    font-size: 1.125rem;
+    padding: 10px;
+  }
+  .sound-icon {
+    width: 1.5rem;
+  }
+  .hero__sound {
+    padding: 10px;
+  }
 }
