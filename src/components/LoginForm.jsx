@@ -1,6 +1,6 @@
 import "../styles/AuthForm.css";
-import Input from "./Input";
-import Button from "./Button";
+import Input from "./atomic/Input";
+import Button from "./atomic/Button";
 
 function LoginForm() {
   return (
