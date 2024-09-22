@@ -25,17 +25,25 @@
 }
 .card__img {
   width: 100%;
-  height: auto;
+  min-height: 162px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
 }
 .card__info {
   width: 100%;
-  padding: 1rem 0.6rem;
+  padding: 1rem 0.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: absolute;
   left: 0;
-  bottom: 5%;
+  bottom: 2%;
+  background: linear-gradient(
+    to top,
+    rgba(33, 33, 33, 0.5),
+    rgba(33, 33, 33, 0)
+  );
 }
 .card__info__title {
   font-weight: bold;
