@@ -41,16 +41,20 @@
   font-weight: bold;
 }
 .scroll-left {
+  display: none;
+  width: 35px;
   position: absolute;
-  left: -2%;
+  left: -5%;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
   z-index: 1;
 }
 .scroll-right {
+  display: none;
+  width: 35px;
   position: absolute;
-  right: -2%;
+  right: -5%;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -58,6 +62,23 @@
 @media (min-width: 768px) {
   .section__title {
     font-size: 1.5rem;
+  }
+  .scroll-left {
+    width: 40px;
+    left: -2%;
+  }
+  .scroll-right {
+    width: 40px;
+    right: -2%;
+  }
+}
+@media (min-width: 1024px) {
+  .section {
+    padding: 2.5rem 5rem;
+  }
+  .scroll-left,
+  .scroll-right {
+    display: block;
   }
 }
 @media (min-width: 1200px) {
@@ -75,5 +96,9 @@
   }
   .card__info {
     font-size: 1.125rem;
+  }
+  .scroll-left,
+  .scroll-right {
+    width: 50px;
   }
 }
