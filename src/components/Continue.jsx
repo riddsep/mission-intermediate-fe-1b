@@ -4,7 +4,7 @@ import data from "../data/film";
 function Continue() {
   const cardItems = data.map((item) => {
     return (
-      <div className="card" key={item.id}>
+      <div className="card continue" key={item.id}>
         <img src={item.src} alt={item.alt} className="card__img" />
         <div className="card__info">
           <div className="card__info__title">{item.title}</div>

@@ -18,7 +18,7 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
 }
-.card {
+.card.continue {
   flex: 0 0 309px;
   position: relative;
   scroll-snap-align: center;
@@ -99,7 +99,7 @@
   .card__list {
     gap: 1.5rem;
   }
-  .card {
+  .card.card.continue {
     flex-basis: 326px;
   }
   .card__info {
