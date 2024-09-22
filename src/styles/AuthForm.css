@@ -30,7 +30,7 @@
 .logo {
   width: 120px;
   height: auto;
-  margin-bottom: 37px;
+  margin-bottom: 20px;
 }
 .title {
   font-size: 1.8rem;
@@ -48,12 +48,17 @@
   flex-direction: column;
   color: #fff;
   font-size: 1rem;
-  gap: 3px;
+  gap: 4px;
 }
 .username {
   margin-bottom: 1.25rem;
 }
 .password {
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+.password-confirm {
+  margin-top: 1.25rem;
   margin-bottom: 0.4rem;
   position: relative;
 }
@@ -106,6 +111,7 @@
 @media (min-width: 1440px) {
   .logo {
     width: 150px;
+    margin-bottom: 30px;
   }
   .call-to-action {
     font-size: 1rem;

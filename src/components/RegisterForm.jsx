@@ -1,38 +1,66 @@
+import "../styles/AuthForm.css";
 import Input from "./Input";
+import Button from "./Button";
 
 function RegisterForm() {
   return (
-    <form className="form">
-      <label htmlFor="username" className="form__label username">
-        Username
-        <Input
-          type="email"
-          className={"form__input"}
-          placeholder="Masukkan username"
-          id="username"
+    <main className="container">
+      <div className="wrapper">
+        <div className="header">
+          <img src="./images/logo.svg" alt="" className="logo" />
+          <h1 className="title">Daftar</h1>
+          <p className="paragraph">Selamat datang!</p>
+        </div>
+        <form className="form">
+          <label htmlFor="username" className="form__label username">
+            Username
+            <Input
+              type="email"
+              className={"form__input"}
+              placeholder="Masukkan username"
+              id="username"
+            />
+          </label>
+          <label htmlFor="password" className="form__label password">
+            Kata Sandi
+            <Input
+              type="password"
+              className={"form__input"}
+              placeholder="Masukkan kata sandi"
+              id="password"
+            />
+            <img src="/images/hide-icon.svg" alt="" className="hide-icon" />
+          </label>
+          <label htmlFor="password" className="form__label password-confirm">
+            Konfirmasi Kata Sandi
+            <Input
+              type="password"
+              className={"form__input"}
+              placeholder="Masukkan kata sandi"
+              id="password-confirm"
+            />
+            <img src="/images/hide-icon.svg" alt="" className="hide-icon" />
+          </label>
+        </form>
+        <p className="call-to-action">
+          <span>
+            Sudah punya akun?
+            <span className="register">Masuk</span>
+          </span>
+        </p>
+        <Button className={"btn--secondary"} label={"Daftar"} />
+        <p className="or">Atau</p>
+        <Button
+          className={"btn--secondary--outline flex"}
+          label={
+            <>
+              <img src="/images/google-icon.svg" className="google-icon" />
+              Masuk dengan Google
+            </>
+          }
         />
-      </label>
-      <label htmlFor="password" className="form__label password--register">
-        Kata Sandi
-        <Input
-          type="password"
-          className={"form__input"}
-          placeholder="Masukkan kata sandi"
-          id="password"
-        />
-        <img src="/images/hide-icon.svg" alt="" className="hide-icon" />
-      </label>
-      <label htmlFor="password-confirm" className="form__label password">
-        Konfirmasi Kata Sandi
-        <Input
-          type="password"
-          className={"form__input"}
-          placeholder="Masukkan kata sandi"
-          id="password-confirm"
-        />
-        <img src="/images/hide-icon.svg" alt="" className="hide-icon" />
-      </label>
-    </form>
+      </div>
+    </main>
   );
 }
 export default RegisterForm;
