@@ -5,7 +5,7 @@ function Dashboard() {
   return (
     <main className="container__dashboard">
       <nav className="nav">
-        <img src="/images/Logo.png" className="nav__logo" />
+        <img src="/images/logo.svg" className="nav__logo" />
         <Button className={"btn--primary"} label={"Sign in"} />
       </nav>
       <div className="hero">

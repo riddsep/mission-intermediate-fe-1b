@@ -1,12 +1,11 @@
 import "./App.css";
-// import Navbar from "./components/Navbar";
-// import Hero from "./components/Hero";
-import AuthPage from "./pages/AuthPage";
-
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 function App() {
   return (
     <>
-      <AuthPage />
+      <Navbar />
+      <Hero />
     </>
   );
 }
