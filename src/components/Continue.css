@@ -4,6 +4,10 @@
   color: #fff;
   padding: 1.25rem;
 }
+.wrapper {
+  width: 100%;
+  position: relative;
+}
 .section__title {
   font-size: 1.25rem;
   margin-bottom: 1.25rem;
@@ -32,6 +36,24 @@
   position: absolute;
   left: 0;
   bottom: 5%;
+}
+.card__info__title {
+  font-weight: bold;
+}
+.scroll-left {
+  position: absolute;
+  left: -2%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+.scroll-right {
+  position: absolute;
+  right: -2%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .section__title {
