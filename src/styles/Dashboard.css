@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav__logo {
+.nav__logo__dashboard {
   width: 100px;
   height: auto;
 }
@@ -66,7 +66,7 @@
   .nav__dashboard {
     padding: 0 4rem;
   }
-  .nav__logo {
+  .nav__logo__dashboard {
     width: 130px;
   }
   .hero__title__dashboard {
@@ -85,7 +85,7 @@
   .nav {
     padding: 0 8rem;
   }
-  .nav__logo {
+  .nav__logo__dashboard {
     width: 150px;
   }
   .hero__title__dashboard {
