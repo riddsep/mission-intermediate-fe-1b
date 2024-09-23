@@ -34,16 +34,6 @@ const topRating = [
     src: "./images/new-release/film-7.png",
     alt: "",
   },
-  {
-    id: 8,
-    src: "./images/new-release/film-8.png",
-    alt: "",
-  },
-  {
-    id: 9,
-    src: "./images/new-release/film-9.png",
-    alt: "",
-  },
 ];
 
 export default topRating;
