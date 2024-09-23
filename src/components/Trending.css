@@ -1,5 +1,6 @@
 .card.top-rating {
   flex: 1 0 95px;
+  scroll-snap-align: center;
 }
 .card__top-rating-img {
   width: 100%;
