@@ -14,7 +14,7 @@
     ),
     url("/background-2.jpg");
 }
-.wrapper {
+.wrapper-form {
   flex: 0 1 529px;
   height: fit-content;
   background-color: rgba(24, 26, 28, 0.8);

@@ -7,9 +7,9 @@ function LoginForm() {
   const navigate = useNavigate();
   return (
     <main className="container">
-      <div className="wrapper">
+      <div className="wrapper-form">
         <div className="header">
-          <img src="./images/logo.svg" alt="" className="logo" />
+          <img src="/images/logo.svg" alt="" className="logo" />
           <h1 className="title">Masuk</h1>
           <p className="paragraph">Selamat datang kembali!</p>
         </div>
