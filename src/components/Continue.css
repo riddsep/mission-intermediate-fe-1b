@@ -4,20 +4,12 @@
   color: #fff;
   padding: 1.25rem;
 }
-.wrapper {
-  width: 100%;
-  position: relative;
-}
+
 .section__title {
   font-size: 1.25rem;
   margin-bottom: 1.25rem;
 }
-.card__list {
-  display: flex;
-  gap: 1rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-}
+
 .card.continue {
   flex: 0 0 309px;
   position: relative;

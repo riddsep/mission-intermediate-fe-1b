@@ -44,6 +44,11 @@ const topRating = [
     src: "./images/top-rating/film-9.png",
     alt: "",
   },
+  {
+    id: 10,
+    src: "./images/top-rating/film-10.png",
+    alt: "",
+  },
 ];
 
 export default topRating;

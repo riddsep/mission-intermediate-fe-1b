@@ -1,5 +1,6 @@
 import "./Continue.css";
 import data from "../data/film";
+import Caraousel from "./atomic/Carousel";
 
 function Continue() {
   const cardItems = data.map((item) => {
@@ -16,11 +17,7 @@ function Continue() {
   return (
     <section className="section">
       <h2 className="section__title">Melanjutkan Tonton Film</h2>
-      <div className="wrapper">
-        <img src="/images/arrow-left.svg" alt="" className="scroll-left" />
-        <div className="card__list">{cardItems}</div>
-        <img src="/images/arrow-right.svg" alt="" className="scroll-right" />
-      </div>
+      <Caraousel cardItems={cardItems} />
     </section>
   );
 }

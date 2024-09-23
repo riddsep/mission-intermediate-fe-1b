@@ -1,8 +1,8 @@
-import "./TopRating.css";
-import data from "../data/top-rating.js";
+import "./NewRelease.css";
+import data from "../data/new-release.js";
 import Caraousel from "./atomic/Carousel.jsx";
 
-function TopRating() {
+function NewRelease() {
   const cardItems = data.map((item) => {
     return (
       <div className="card top-rating" key={item.id}>
@@ -12,9 +12,9 @@ function TopRating() {
   });
   return (
     <section className="section">
-      <h2 className="section__title">Top Rating Film dan Series Hari ini</h2>
+      <h2 className="section__title">Rilis Baru</h2>
       <Caraousel cardItems={cardItems} />
     </section>
   );
 }
-export default TopRating;
+export default NewRelease;

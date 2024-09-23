@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Continue from "./components/Continue";
 import TopRating from "./components/TopRating";
 import Trending from "./components/Trending";
+import NewRelease from "./components/NewRelease";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Continue />
       <TopRating />
       <Trending />
+      <NewRelease />
     </>
   );
 }
