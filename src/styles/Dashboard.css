@@ -12,7 +12,7 @@
   background-position: center;
   padding: 1rem;
 }
-.nav {
+.nav__dashboard {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@
   height: auto;
 }
 
-.hero {
+.hero__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,14 +31,14 @@
   min-height: 550px;
   color: #fff;
 }
-.hero__title {
+.hero__title__dashboard {
   font-size: 2rem;
   font-weight: 900;
   text-align: center;
   filter: drop-shadow(5px 5px 10px rgba(255, 255, 255, 0.3));
   line-height: 90%;
 }
-.hero__paragraph {
+.hero__paragraph__dashboard {
   font-size: 1rem;
   text-align: center;
   line-height: 120%;
@@ -48,14 +48,14 @@
 .hero__input-container {
   width: 100%;
   display: flex;
-  gap: 0.5rem;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
-  .hero__title {
+  .hero__title__dashboard {
     font-size: 2.5rem;
   }
-  .hero__paragraph {
+  .hero__paragraph__dashboard {
     font-size: 1.2rem;
   }
   .hero__input-container {
@@ -63,17 +63,17 @@
   }
 }
 @media (min-width: 1024px) {
-  .nav {
+  .nav__dashboard {
     padding: 0 4rem;
   }
   .nav__logo {
     width: 130px;
   }
-  .hero__title {
+  .hero__title__dashboard {
     font-size: 3rem;
     padding: 0 5rem;
   }
-  .hero__paragraph {
+  .hero__paragraph__dashboard {
     font-size: 1.2rem;
   }
   .hero__input-container {
@@ -88,11 +88,11 @@
   .nav__logo {
     width: 150px;
   }
-  .hero__title {
+  .hero__title__dashboard {
     font-size: 3.5rem;
     padding: 0 18rem;
   }
-  .hero__paragraph {
+  .hero__paragraph__dashboard {
     font-size: 1.2rem;
   }
   .hero__input-container {
