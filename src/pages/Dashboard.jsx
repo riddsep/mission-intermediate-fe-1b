@@ -1,6 +1,6 @@
 import "../styles/Dashboard.css";
-import Button from "../components/Button";
-import Input from "../components/Input";
+import Button from "../components/atomic/Button";
+import Input from "../components/atomic/Input";
 function Dashboard() {
   return (
     <main className="container__dashboard">
