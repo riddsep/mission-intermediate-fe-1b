@@ -1,5 +1,7 @@
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <>
       <nav className="nav">
@@ -40,7 +42,10 @@ function Navbar() {
               <img src="./images/star.svg" alt="" className="dropdown-icons" />
               Ubah Premium
             </li>
-            <li className="dropdown-menu__item">
+            <li
+              className="dropdown-menu__item"
+              onClick={() => navigate("/accounts/login")}
+            >
               <img
                 src="./images/login-variant.svg"
                 alt=""
