@@ -8,8 +8,11 @@ import PageNotFound from "../pages/PageNotFound";
 const routers = createBrowserRouter([
   {
     path: "/",
-    element: <Dashboard />,
     children: [
+      {
+        path: "",
+        element: <Dashboard />,
+      },
       {
         path: "/login",
         element: <LoginForm />,

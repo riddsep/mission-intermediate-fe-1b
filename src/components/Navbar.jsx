@@ -44,7 +44,7 @@ function Navbar() {
             </li>
             <li
               className="dropdown-menu__item"
-              onClick={() => navigate("/accounts/login")}
+              onClick={() => navigate("/login")}
             >
               <img
                 src="./images/login-variant.svg"

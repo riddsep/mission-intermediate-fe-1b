@@ -47,15 +47,16 @@ function RegisterForm() {
         <p className="call-to-action">
           <span>
             Sudah punya akun?
-            <span
-              className="register"
-              onClick={() => navigate("/accounts/login")}
-            >
+            <span className="register" onClick={() => navigate("/login")}>
               Masuk
             </span>
           </span>
         </p>
-        <Button className={"btn--secondary"} label={"Daftar"} />
+        <Button
+          className={"btn--secondary"}
+          label={"Daftar"}
+          onClick={() => navigate("/login")}
+        />
         <p className="or">Atau</p>
         <Button
           className={"btn--secondary--outline flex"}

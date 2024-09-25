@@ -10,7 +10,7 @@ function Dashboard() {
         <Button
           className={"btn--primary"}
           label={"Sign in"}
-          onClick={() => navigate("/accounts/register")}
+          onClick={() => navigate("/register")}
         />
       </nav>
       <div className="hero__container">
@@ -24,7 +24,7 @@ function Dashboard() {
           <Button
             className={"btn--primary"}
             label={"Get started"}
-            onClick={() => navigate("/accounts/login")}
+            onClick={() => navigate("/login")}
           />
         </div>
       </div>

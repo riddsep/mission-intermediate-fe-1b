@@ -37,10 +37,7 @@ function LoginForm() {
         <p className="call-to-action">
           <span>
             Belum punya akun?
-            <span
-              className="register"
-              onClick={() => navigate("/accounts/register")}
-            >
+            <span className="register" onClick={() => navigate("/register")}>
               Daftar
             </span>
           </span>
