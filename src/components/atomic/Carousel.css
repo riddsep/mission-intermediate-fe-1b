@@ -1,6 +1,5 @@
 .embla {
   width: 100%;
-  position: relative;
 }
 .embla__viewport {
   display: flex;
@@ -10,6 +9,7 @@
 .embla-container {
   display: flex;
   gap: 1rem;
+  position: relative;
 }
 .embla__next,
 .embla__prev {

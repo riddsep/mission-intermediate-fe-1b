@@ -8,7 +8,9 @@
   object-fit: cover;
   object-position: center;
 }
-
+.relative {
+  position: relative;
+}
 @media (min-width: 768px) {
   .card.top-rating {
     flex: 1 0 234px;
