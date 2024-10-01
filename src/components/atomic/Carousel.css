@@ -6,7 +6,7 @@
 .embla__viewport {
   display: flex;
   overflow-x: auto;
-  overflow-y: auto;
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
 }
 .embla-container {
